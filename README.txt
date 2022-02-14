@@ -1,0 +1,423 @@
+To print the board on the screen I've used UTF-8 encoded characters in the form of filled and hollow circles.
+If the encoding doesn't correspond on the machine you test the code, please subtitute the characters with "1" and "2" in the showBoard() method.
+There are some comments placed where the change would be performed.
+Alternatively, for a better look, you could paste the characters from this file ("●" and "○").
+
+Here I'll paste the extended logs of a game.
+####################################################
+Welcome to our game! 
+ Press Q to quit while running and ENTER to advance!
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |   ●   ●   ●   ● | 3
+4 |                 | 4
+5 |                 | 5
+6 | ○   ○   ○   ○   | 6
+7 |   ○   ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 1
+
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 2
+    Enter coordinate Y --> 3
+Coordinates of final position of the piece:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 4
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |       ●   ●   ● | 3
+4 |     ●           | 4
+5 |                 | 5
+6 | ○   ○   ○   ○   | 6
+7 |   ○   ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 2
+Turn of player: 2
+Coordinates of piece to be moved:
+    Enter coordinate X --> 1
+    Enter coordinate Y --> 6
+Coordinates of final position of the piece:
+    Enter coordinate X --> 2
+    Enter coordinate Y --> 5
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |       ●   ●   ● | 3
+4 |     ●           | 4
+5 |   ○             | 5
+6 |     ○   ○   ○   | 6
+7 |   ○   ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 3
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 4
+Coordinates of final position of the piece:
+    Enter coordinate X --> 1
+    Enter coordinate Y --> 6
+Piece at 2:5 is taken!
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |       ●   ●   ● | 3
+4 |                 | 4
+5 |                 | 5
+6 | ●   ○   ○   ○   | 6
+7 |   ○   ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 4
+Turn of player: 2
+Coordinates of piece to be moved:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 6
+Coordinates of final position of the piece:
+    Enter coordinate X --> 4
+    Enter coordinate Y --> 5
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |       ●   ●   ● | 3
+4 |                 | 4
+5 |       ○         | 5
+6 | ●       ○   ○   | 6
+7 |   ○   ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 5
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 4
+    Enter coordinate Y --> 3
+Coordinates of final position of the piece:
+    Enter coordinate X --> 2
+    Enter coordinate Y --> 5
+Invalid move! Respect the rules!☹
+Coordinates of final position of the piece:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 4
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |           ●   ● | 3
+4 |     ●           | 4
+5 |       ○         | 5
+6 | ●       ○   ○   | 6
+7 |   ○   ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 6
+Turn of player: 2
+Coordinates of piece to be moved:
+    Enter coordinate X --> 4
+    Enter coordinate Y --> 5
+Coordinates of final position of the piece:
+    Enter coordinate X --> 2
+    Enter coordinate Y --> 3
+Piece at 3:4 is taken!
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |   ○       ●   ● | 3
+4 |                 | 4
+5 |                 | 5
+6 | ●       ○   ○   | 6
+7 |   ○   ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 7
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 2
+Coordinates of final position of the piece:
+    Enter coordinate X --> 1
+    Enter coordinate Y --> 4
+Piece at 2:3 is taken!
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●       ●   ●   | 2
+3 |           ●   ● | 3
+4 | ●               | 4
+5 |                 | 5
+6 | ●       ○   ○   | 6
+7 |   ○   ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 8
+Turn of player: 2
+Coordinates of piece to be moved:
+    Enter coordinate X --> 2
+    Enter coordinate Y --> 7
+Coordinates of final position of the piece:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 6
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●       ●   ●   | 2
+3 |           ●   ● | 3
+4 | ●               | 4
+5 |                 | 5
+6 | ●   ○   ○   ○   | 6
+7 |       ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 9
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 1
+    Enter coordinate Y --> 6
+Coordinates of final position of the piece:
+    Enter coordinate X --> 2
+    Enter coordinate Y --> 7
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●       ●   ●   | 2
+3 |           ●   ● | 3
+4 | ●               | 4
+5 |                 | 5
+6 |     ○   ○   ○   | 6
+7 |   ●   ○   ○   ○ | 7
+8 | ○   ○   ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 10
+Turn of player: 2
+Coordinates of piece to be moved:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 8
+Coordinates of final position of the piece:
+    Enter coordinate X --> 2
+    Enter coordinate Y --> 7
+Invalid coordinates! Cell occupied or invalid cell color.☹
+Coordinates of final position of the piece:
+    Enter coordinate X --> 1
+    Enter coordinate Y --> 6
+Piece at 2:7 is taken!
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●   ●   ●   ● | 1
+2 | ●       ●   ●   | 2
+3 |           ●   ● | 3
+4 | ●               | 4
+5 |                 | 5
+6 | ○   ○   ○   ○   | 6
+7 |       ○   ○   ○ | 7
+8 | ○       ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 11
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 6
+    Enter coordinate Y --> 1
+All directions are blocked! Try another piece.☹
+Coordinates of piece to be moved:
+    Enter coordinate X --> 4
+    Enter coordinate Y --> 1
+Coordinates of final position of the piece:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 2
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●       ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |           ●   ● | 3
+4 | ●               | 4
+5 |                 | 5
+6 | ○   ○   ○   ○   | 6
+7 |       ○   ○   ○ | 7
+8 | ○       ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 12
+Turn of player: 2
+Coordinates of piece to be moved:
+    Enter coordinate X --> 7
+    Enter coordinate Y --> 6
+Coordinates of final position of the piece:
+    Enter coordinate X --> 8
+    Enter coordinate Y --> 5
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●       ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |           ●   ● | 3
+4 | ●               | 4
+5 |               ○ | 5
+6 | ○   ○   ○       | 6
+7 |       ○   ○   ○ | 7
+8 | ○       ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 13
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 6
+    Enter coordinate Y --> 3
+Coordinates of final position of the piece:
+    Enter coordinate X --> 5
+    Enter coordinate Y --> 4
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●       ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |               ● | 3
+4 | ●       ●       | 4
+5 |               ○ | 5
+6 | ○   ○   ○       | 6
+7 |       ○   ○   ○ | 7
+8 | ○       ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 14
+Turn of player: 2
+Coordinates of piece to be moved:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 6
+Coordinates of final position of the piece:
+    Enter coordinate X --> 4
+    Enter coordinate Y --> 5
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●       ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |               ● | 3
+4 | ●       ●       | 4
+5 |       ○       ○ | 5
+6 | ○       ○       | 6
+7 |       ○   ○   ○ | 7
+8 | ○       ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 15
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 5
+    Enter coordinate Y --> 4
+Coordinates of final position of the piece:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 6
+Piece at 4:5 is taken!
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●       ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |               ● | 3
+4 | ●               | 4
+5 |               ○ | 5
+6 | ○   ●   ○       | 6
+7 |       ○   ○   ○ | 7
+8 | ○       ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 16
+Turn of player: 2
+Coordinates of piece to be moved:
+    Enter coordinate X --> 4
+    Enter coordinate Y --> 7
+Coordinates of final position of the piece:
+    Enter coordinate X --> 2
+    Enter coordinate Y --> 5
+Piece at 3:6 is taken!
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●       ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |               ● | 3
+4 | ●               | 4
+5 |   ○           ○ | 5
+6 | ○       ○       | 6
+7 |           ○   ○ | 7
+8 | ○       ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 17
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 1
+    Enter coordinate Y --> 4
+Coordinates of final position of the piece:
+    Enter coordinate X --> 3
+    Enter coordinate Y --> 6
+Piece at 2:5 is taken!
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●       ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |               ● | 3
+4 |                 | 4
+5 |               ○ | 5
+6 | ○   ●   ○       | 6
+7 |           ○   ○ | 7
+8 | ○       ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 18
+Turn of player: 2
+Coordinates of piece to be moved:
+    Enter coordinate X --> 5
+    Enter coordinate Y --> 6
+Coordinates of final position of the piece:
+    Enter coordinate X --> 4
+    Enter coordinate Y --> 5
+Game board updated! Piece moved!☻
+ x->1 2 3 4 5 6 7 8    
+  +-----------------+  
+1 |   ●       ●   ● | 1
+2 | ●   ●   ●   ●   | 2
+3 |               ● | 3
+4 |                 | 4
+5 |       ○       ○ | 5
+6 | ○   ●           | 6
+7 |           ○   ○ | 7
+8 | ○       ○   ○   | 8
+  +-----------------+  
+ x->1 2 3 4 5 6 7 8    
+Let's complete turn number: 19
+Turn of player: 1
+Coordinates of piece to be moved:
+    Enter coordinate X --> 
