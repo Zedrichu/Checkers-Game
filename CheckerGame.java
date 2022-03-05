@@ -1,7 +1,7 @@
 package  Assignment1___Checkers;
 import java.util.Scanner;
 
-/* Game of Checkers
+/** Game of Checkers
  * 
  * Description: Simulation of a Checkers Game 
  * 
@@ -108,7 +108,6 @@ public class CheckerGame {
 					turn - integer (1 or 2), containing the number of the player moving currently
 		Returns: integer array, containing the updated configuration
 		*/
-		
 
     	System.out.println("Turn of player: "+turn);
     	int pcX = -1;
@@ -116,7 +115,6 @@ public class CheckerGame {
     	
     	int dtX = -1;
     	int dtY = -1;
-    	
    
     	while (true) {
     		// Request current position of the piece to be moved
