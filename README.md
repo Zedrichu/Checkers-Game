@@ -2,7 +2,7 @@
 Program simulating the game of checkers, implemented in Java.
 
 To print the board on the screen I've used UTF-8 encoded characters in the form of filled and hollow circles.
-If the encoding doesn't correspond on the machine you test the code, please subtitute the characters with "1" and "2" in the showBoard() method.
+If the encoding doesn't correspond on the machine you test the code, please subtitute the characters with "●" and "#" in the showBoard() method.
 There are some comments placed where the change would be performed.
 Alternatively, for a better look, you could paste the characters from this file ("●" and "○").
 
